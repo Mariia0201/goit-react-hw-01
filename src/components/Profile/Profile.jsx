@@ -5,7 +5,7 @@ const Profile = (props) => {
     <div className={css.card}>
       <div className={css.generalInfo}>
     <img className={css.avatar}
-      src="props.image"
+          src={props.image}
       alt="User avatar"
     />
         <p className={css.name}>{props.name}</p>
